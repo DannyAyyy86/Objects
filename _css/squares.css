@@ -1,10 +1,10 @@
-body { background-color: #faebd7; color: #8db600; }
+body { background-color: #0000ff; color: #8db600; }
 
 #container {
-	background-color: #a52a2a; 
+	background-color: #ff4040; 
 }
 .inset {
-	outline: solid 1px #89cff0;
+	outline: solid 1px #ff7f50;
 	width: 90%;
 	min-width: 320px; 
 	max-width: 1200px;
@@ -13,10 +13,10 @@ body { background-color: #faebd7; color: #8db600; }
 	color: #ffe135;
 }
 
-header 	{ background-color: #ffe4c4; padding: 10px; }
-nav 	{ background-color: #fe6f5e; padding: 10px; }
-#main 	{ background-color: #cc0000; padding: 10px; }
-footer 	{ background-color: #08e8de; padding: 10px; }
+header 	{ background-color: #8fbc8f; padding: 10px; }
+nav 	{ background-color: #ffa07a; padding: 10px; }
+#main 	{ background-color: #ffffe0; padding: 10px; }
+footer 	{ background-color: #cae1ff; padding: 10px; }
 
 /*-------------------------------------
 | header and footer
@@ -41,10 +41,10 @@ nav a {
 	width: 75px; 
 	line-height: 50px; 
 	border-radius: 5px;
-	background-color: #ff007f;
-	color: #e7feff;
+	background-color: #ff0000;
+	color: #fff5ee;
 }
-nav a:hover { background-color: #800020; color: #deb887; text-decoration: none; }
+nav a:hover { background-color: #ffd700; color: #94003d; text-decoration: none; }
 nav a.chosen { background-color: #e97451;  color: #fff600; }
 
 /*-------------------------------------
@@ -52,7 +52,7 @@ nav a.chosen { background-color: #e97451;  color: #fff600; }
 -------------------------------------*/
 footer .inset { line-height: 600px; }
 #main section { min-height: 300px; }
-#main section:nth-of-type(even) { background-color: #a3c1ad; }
+#main section:nth-of-type(even) { background-color: #20b2aa; }
 
 /*-------------------------------------
 | 12 Column Grid
